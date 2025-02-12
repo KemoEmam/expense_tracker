@@ -1,17 +1,21 @@
-# expense_tracker
 
-A new Flutter project.
+# Ana Muslim
 
-## Getting Started
+This is a simple Expense Tracker App built using Flutter and Cubit (flutter_bloc) for state management. The app allows users to:
+✅ Add new expenses (amount, description, category).
+✅ View a list of all expenses.
+✅ See a total sum of their expenses.
+✅ Delete an expense if needed.
 
-This project is a starting point for a Flutter application.
+🏗️ Architecture & Tech Stack
 
-A few resources to get you started if this is your first Flutter project:
+This project follows Clean Architecture to ensure maintainability and scalability. The key components include:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Architecture: Clean Architecture Structure
+State Management: Cubit (flutter_bloc)
+Storage: Local state using Cubit
+UI Framework: Flutter (Material Design)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# expense_tracker
+
+
+
