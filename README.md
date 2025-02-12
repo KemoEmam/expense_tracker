@@ -1,5 +1,5 @@
 
-# Ana Muslim
+# Expense Tracker
 
 This is a simple Expense Tracker App built using Flutter and Cubit (flutter_bloc) for state management. The app allows users to:
 ✅ Add new expenses (amount, description, category).
