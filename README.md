@@ -11,10 +11,10 @@ This is a simple Expense Tracker App built using Flutter and Cubit (flutter_bloc
 
 This project follows Clean Architecture to ensure maintainability and scalability. The key components include:
 
-Architecture: Clean Architecture Structure
-State Management: Cubit (flutter_bloc)
-Storage: Local state using Cubit
-UI Framework: Flutter (Material Design)
+- Architecture: Clean Architecture Structure
+- State Management: Cubit (flutter_bloc)
+- Storage: Local state using Cubit
+- UI Framework: Flutter (Material Design)
 
 
 
