@@ -7,8 +7,6 @@ class NeuBoxWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // bool isDarkMode =
-    //     BlocProvider.of<DarkLightCubit>(context).state is DarkThemeState;
     return GestureDetector(
       onTap: onTap,
       child: Container(

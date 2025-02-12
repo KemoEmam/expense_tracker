@@ -28,22 +28,22 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  bloc: ^9.0.0
   cupertino_icons: ^1.0.8
   flutter:
     sdk: flutter
-  go_router: ^14.8.0
+  flutter_bloc: ^9.0.0
   forbidden_pack:
     git:
       url: https://github.com/kemoemam/ForbiddenPack.git
       ref: main
+  get_it: ^8.0.3
+  go_router: ^14.8.0
+  logger: ^2.5.0
+  meta: ^1.15.0
+  shared_preferences: ^2.5.2
 
 dev_dependencies:
-
-  # The "flutter_lints" package below contains a set of recommended lints to
-  # encourage good coding practices. The lint set provided by the package is
-  # activated in the `analysis_options.yaml` file located at the root of your
-  # package. See that file for information about deactivating specific lint
-  # rules and activating additional ones.
   flutter_lints: ^5.0.0
   flutter_test:
     sdk: flutter
