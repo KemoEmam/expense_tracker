@@ -37,10 +37,13 @@ class _SetupViewBodyState extends State<SetupViewBody> {
           ),
           const SizedBox(height: 20),
           ElevatedButton(
-            onPressed: () {
+            onPressed: () async {
               if (_formKey.currentState!.validate()) {
                 _formKey.currentState!.save();
-                context.read<SetupCubit>().saveUserData(_name, _initialBalance);
+                await context
+                    .read<SetupCubit>()
+                    .saveUserData(_name, _initialBalance);
+                // ignore: use_build_context_synchronously
                 context.go(Routes.home);
               }
             },

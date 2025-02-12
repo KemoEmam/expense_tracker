@@ -11,11 +11,10 @@ class SetupCubit extends Cubit<SetupState> {
   SetupCubit(this._userRepository) : super(SetupInitial());
 
   Future<void> saveUserData(String name, double initialBalance) async {
-    emit(SetupLoading());
     try {
-      final user = User(name: name, initialBalance: initialBalance);
-      await _userRepository.saveUser(user);
-      emit(SetupCompleted(user));
+      await _userRepository
+          .saveUser(User(name: name, initialBalance: initialBalance));
+      emit(SetupCompleted(User(name: name, initialBalance: initialBalance)));
     } catch (e) {
       emit(SetupError(e.toString()));
     }
